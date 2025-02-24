@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W1ndles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page__main">
+    <header class="header">
+        <h2 class="main__title">Приветствую тебя!</h2>
+    </header>
+<main class="main">
+        <div class="info__card">
+            <h2 class="info__card__title">Обо мне</h2>
+            <p class="info__card__content">Меня зовут W1ndles. В узких кургах своего общество Willam Karton. Я занимаюсь разработкой видео-игр на таких движках как "Clickteam fusion 2.5, Unreal Engine 4". Из хобби у меня занимает фронтенд разработка и рисование разных персонажей из разных игровых вселенной.</p>
+            <h2 class="info__card__title">Проекты</h2>
+            <ul class="info__card__content">
+                <li>Project "S" Chapter 1</li>
+                <li>Cars Corner</li>
+                <li>Night Zombie Fall of the City</li>
+            </ul>
+            <h2 class="info__card__title">Также</h2>
+            <p class="info__card__content">Советую посмотреть еще ссылки представленные ниже. Здесь вы можете посмотреть мой сайт и много другой информации!</p>
+            <div class="info__card__button">
+                <button id="w1ndles" type="button" class="button">Сайт</button>
+                <button id="github"type="button" class="button">github</button>
+            </div>
+        </div>
+</main>
+<footer class="footer">
+    <p class="footer__content">Как у вас дела? - W1ndles</p>
+</footer>
+<script src="js/jquery-3.7.1.min.js"></script>  
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#w1ndles').click(function(){
+            window.open('https://w1ndles.github.io/index.html', '_blank');
+        });
+        $('#github').click(function(){
+            window.open('https://github.com/W1ndles', '_blank');
+        });
+    });
+</script>
+</body>
+</html>

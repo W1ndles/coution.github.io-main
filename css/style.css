@@ -1,0 +1,131 @@
+:root {
+    --black-dark: #000;
+    --black: #555;
+
+    --gray: #242424;
+    --gray-dark: #000;
+  
+    --red-dark: #AA0000;
+    --red: #FF0000;
+  
+    --green-dark: #00AA00;
+    --green: #55FF55;
+  
+    --yellow-dark: #AA5500;
+    --yellow: #FFFF55;
+  
+    --blue-dark: #0000AA;
+    --blue: #5555FF;
+  
+    --purple-dark: #AA00AA;
+    --purple: #FF55FF;
+  
+    --cyan-dark: #00AAAA;
+    --cyan: #55FFFF;
+  
+    --white-dark: #AAA;
+    --white: #FFF;
+  }
+
+  body {
+    font-family: "JetBrains Mono", monospace;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: var(--blue);
+    font-weight: bold;
+  }
+  a:hover {
+    color: var(--blue-dark);
+    text-decoration: none;
+  }
+
+  .page__main {
+    background: var(--gray);
+  }
+
+  .header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main__title {
+    background: var(--blue);
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    border-style: ridge;
+  }
+
+  .main {
+    margin: 32px auto;
+    height: 300px;
+  }
+
+  .section {
+    width: auto;
+    margin: 8px auto;
+    padding: 16px;
+  }
+
+  .info__card {
+    width: 500px;
+    height: 500px;
+    margin: 8px auto;
+    padding: 12px;
+    background: var(--black);
+    color: var(--white);
+    border-style: ridge;
+  }
+  .info__card__title {
+    width: 100%;
+    color: var(--blue);
+    display: flex;
+    justify-content: center;
+  }
+  .info__card__content {
+    margin: 12px;
+  }
+
+  .footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 48px;
+    color: var(--white);
+    background: var(--blue);
+    transform: translateY(400px);
+  }
+  .footer__content {
+    margin: 12px;
+  }
+
+  button {
+    border: 0;
+    min-width: 100px;
+    height: 32px;
+    background: var(--blue);
+    color: var(--white);
+    box-shadow: 4px 4px 0px var(--white);
+    font-weight: bold;
+    margin: 0 8px 16px 0;
+  }
+  button:hover {
+    background: var(--white);
+    cursor: pointer;
+
+  }
+  .info__card__button {
+    margin-top: 32px;
+    box-shadow: 4px 4px 0 var(--blue);
+  }
